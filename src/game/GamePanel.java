@@ -12,11 +12,7 @@ import java.applet.*;
 	static final int GAME_HEIGHT =1000;
 	static final Dimension SCREEN_SIZE =new Dimension(GAME_WIDTH,GAME_HEIGHT);
 	
-	
-	Thread gameThread;
 	Graphics g;
-	Nought[] nought;
-	Cross[] cross;
 	Icon icon1, icon2;
 	boolean flag=true;
 	Cell[]  cells_mas=Cell.cells();
